@@ -227,4 +227,4 @@ def update_nomogram(dl_score, f1, f2, f3):
     return fig #, f"Total Points: <b>{total:.1f}</b> | Predicted Risk: <span style='color:green'><b>{prob:.2%}</b></span>"
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8050)
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 8080)), debug=False)
