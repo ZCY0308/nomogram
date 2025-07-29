@@ -2,6 +2,7 @@ import numpy as np
 import dash
 from dash import dcc, html, Output, Input
 import plotly.graph_objs as go
+import os
 
 # 你的参数
 features = ['DL score', "Intratumoral\nartery", "\"Capsule\"\nappearance", "Corona\nenhancement"]
