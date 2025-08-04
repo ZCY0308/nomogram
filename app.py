@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 import os
 
 # 你的参数
-features = ['DL score', "Intratumoral\nartery", "\"Capsule\"\nappearance", "Corona\nenhancement"]
+features = ['WaveAtt-Net\nscore', "Intratumoral\nartery", "\"Capsule\"\nappearance", "Corona\nenhancement"]
 coefs = [4.239346, -0.422436, -0.193177, -0.05293]
 intercept = -3.036185
 feature_ranges = [
